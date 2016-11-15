@@ -1,0 +1,5 @@
+images/*
+
+config.json
+
+*.pyc
