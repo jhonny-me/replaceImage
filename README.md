@@ -2,6 +2,9 @@
 
 This repo is some python scripts for replace image url to qiniu url.
 
+demo:
+![](https://raw.githubusercontent.com/jhonny-me/replaceImage/master/demo/demo.gif)
+
 ## Requirements
 
 Before using following scripts, you should create a qiniu account and a bucket for configure.You should implement the *accessKey*,*secretkey*,*bucket_url*,*bucket* in ```uploadToQiniu.py``` file.
