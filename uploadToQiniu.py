@@ -77,8 +77,8 @@ def upload_from(file_path, custom_name):
 
 	q = Qiniu(accessKey, secretkey)
 	ret, info, url = q.upload_file(bucket, custom_name, file_path)
-	print ret
 	print("已上传： %s " % url)
+	return url
 	pass
 
 def main():
