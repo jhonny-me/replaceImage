@@ -50,7 +50,6 @@ def replaceToCNUrl(url, custom_name=''):
 	print fullPath
 	downloadImgFrom(url, imageName, fullPath)
 	new_url = uploadToQiniu.upload_from(fullPath, imageName)
-	print 'will return to demo.py with ' + new_url
 	return new_url
 	pass
 
