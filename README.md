@@ -1,5 +1,6 @@
-# replaceImage
+  ![coollogo_com-9082891](https://cloud.githubusercontent.com/assets/9820374/20377032/e2ec1a56-acc6-11e6-8e9c-72c72f49b7fa.png)
 
+# 2CNUrl
 This repo is some python scripts for replace image url to qiniu url.
 
 demo:
