@@ -8,7 +8,7 @@ import re
 def find(file_name):
 	with open(file_name) as f:
 		content = f.read()
-	s = re.findall(r'https?\:\/\/.+\.(?:jpe?g|gif|png)', content)
+	s = re.findall(r'https?\:\/\/[^\)]+\.(?:jpe?g|gif|png)', content)
 	print s
 	return s
 
