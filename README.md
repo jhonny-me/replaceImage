@@ -44,3 +44,12 @@ demo:
 ```
 ./replaceToCNUrl.py http://images.51cto.com/files/uploadimg/20100630/104906665.jpg
 ```
+
+## Todo
+
+- [ ] optimize image before upload to qiniu
+- [ ] fail logs
+
+##License
+
+**MIT**
