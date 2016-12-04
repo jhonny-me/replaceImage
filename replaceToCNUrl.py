@@ -7,6 +7,7 @@ import urllib2
 import urllib
 
 import uploadToQiniu
+import optimize
 
 def downloadImgFrom(url, filename, toLocalPath):
 	print "start download" + url
@@ -19,6 +20,7 @@ def downloadImgFrom(url, filename, toLocalPath):
 	output = open(toLocalPath, 'wb')
 	output.write(imageData)
 	output.close()
+	optimize.optimizeFromPath(toLocalPath)
 	# if os.path.exists(filename):
 
 	# 	pass
